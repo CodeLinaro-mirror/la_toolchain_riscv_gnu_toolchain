@@ -1,0 +1,18 @@
+name: "RISCV_GNU_TOOLCHAIN"
+description:
+    "This is the RISC-V C and C++ cross-compiler. It supports two build modes: "
+    "a generic ELF/Newlib toolchain and a more sophisticated Linux-ELF/glibc "
+    "toolchain."
+
+third_party {
+homepage: "https://github.com/riscv-collab/riscv-gnu-toolchain/"
+  identifier {
+    type: "Git"
+    value: "https://github.com/riscv-collab/riscv-gnu-toolchain.git"
+    primary_source: true
+    version: "2024.04.12"
+  }
+  version: "2024.04.12"
+  last_upgrade_date { year: 2024 month: 9 day: 11 }
+  license_type: RESTRICTED
+}
